@@ -20,12 +20,22 @@ body {
   z-index: 0;
   width: 400px;
   height: 609px;
-  opacity: 0;
   position: absolute;
   top: 0;
   right: 15%;
   bottom: 0;
   left: auto;
+  margin: auto;
+}
+.led {
+  z-index: 0;
+  width: 600px;
+  height: 609px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: -30%;
   margin: auto;
 }
 #main-logo{
@@ -36,6 +46,9 @@ body {
   left: 0;
   margin: auto;
   width: 100%;
-  opacity: 1;
-  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.greeting {
+  font-size: 50pt;
+  color: #F1F1F1;
+
 }
