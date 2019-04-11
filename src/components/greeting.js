@@ -1,5 +1,10 @@
 import React from "react";
 
 export default () => (
-<><div className="led"><p className="greeting">Hi, my name is Micah<br/>and I like to build things.</p></div></>
+<>
+<div className="led">
+<p className="greeting">Hi,
+<br/>I'm <span className="highlight">Micah</span>
+<br/>&<br/> I like to code.</p></div>
+</>
 )

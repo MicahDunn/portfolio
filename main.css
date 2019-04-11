@@ -1,35 +1,26 @@
 :root {
   --main-bg-color: #252628;
   --navbar-bg-color: #181818;
+  --highlight-color: #0797A4;
 }
 body {
   background-color: var(--main-bg-color);
 }
-.navbar {
-  position: fixed;
-  float: left;
-  width: 60px;
-  height: 100%;
-  background-color: var(--navbar-bg-color);
-  left: 0px;
-  top: 0px;
-  display: block;
-  margin-right: 100px;
-}
 .ced {
   z-index: 0;
-  width: 400px;
-  height: 609px;
+  width: 30%;
+  height: 734px;
   position: absolute;
   top: 0;
   right: 15%;
   bottom: 0;
   left: auto;
   margin: auto;
+  border: 20px rgba(139, 139, 139, 0.07) solid
 }
 .led {
   z-index: 0;
-  width: 600px;
+  width: 30%;
   height: 609px;
   position: absolute;
   top: 0;
@@ -40,15 +31,16 @@ body {
 }
 #main-logo{
   position: absolute;
-  top: auto;
-  right: auto;
-  bottom: 0;
-  left: 0;
+  height: auto;
+  max-height: 734px;
   margin: auto;
-  width: 100%;
+  width: auto;
+  max-width: 726px;
 }
 .greeting {
   font-size: 50pt;
   color: #F1F1F1;
-
+}
+.highlight{
+  color: var(--highlight-color);
 }
