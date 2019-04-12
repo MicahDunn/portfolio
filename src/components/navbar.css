@@ -45,6 +45,8 @@ ul{
 }
 ul li{
   padding: 5px;
+  height: 40px;
+  width: 40px;
 }
 .helper {
   display: table-cell;
@@ -52,4 +54,14 @@ ul li{
 }
 .spacer{
   height: 10%;
+}
+.hovered-nav-icons{
+  color: var(--red-color);
+  padding: 10px;
+  line-height: 40px;
+  vertical-align: middle;
+  font-weight: bolder;
+  font-stretch: ultra-expanded;
+  font-size: 19px;
+  padding-left: 9px;
 }
